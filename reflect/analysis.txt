@@ -1,12 +1,21 @@
 This is analysis.txt
-Replace this line with your name
-Replace this line with your netid
+Alix Ouazana
+aro16
 
 Copy/paste the output of your simulation when using planets.txt,
 running the simulation for 1,000,000 (one  million) seconds, and
 with a time-step/dt value of 25,000
 
 (replace with copy/paste)
+
+** My code gives this error when I try to simulate it** 
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextDouble(Scanner.java:2564)
+	at NBody.readBodies(NBody.java:48)
+	at NBody.main(NBody.java:81)
+
 
 Copy/paste the output of your simulation when using planets.txt,
 running the simulation for 2,000,000 (one  million) seconds, and
